@@ -91,7 +91,7 @@ def parse_race_info(race_id):
     except:
         pass
 
-    # race_id 構造から場所などを抽出
+    # race_id 構造から場所などを抽出x
     place_code = race_id[4:6]
     place = JRA_PLACE_CODE.get(place_code, '不明')
     round_num = int(race_id[6:8])
